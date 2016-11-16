@@ -1,0 +1,359 @@
+
+
+* { padding: 0; margin: 0; }
+body { font-family: sans-serif; }
+a { text-decoration: none; color: #00A5CC; }
+li { list-style-type: none; }
+
+header { 
+    width: 100%; 
+    height: 50px; 
+    margin: 0;
+    border-bottom: 1px solid #EEE;
+
+
+}
+
+header {
+    background: #000;
+    border-color: #000;
+    
+}
+
+#brand {
+    float: left;
+    line-height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+   margin: 0 0 0 6px;
+   font-family: 'Covered By Your Grace', cursive;
+   font-style: italic;
+}
+nav { width: 100%; text-align: center; }
+nav a { 
+    display: block; 
+    padding: 15px 0;
+    border-bottom: 1px #FFCCCC ;
+    color: black;
+    padding-right:0;
+}
+nav a:hover { background: #d3d3d3; color: #FFF; }
+nav li:last-child a { border-bottom: none; }
+
+/*-----------------------------------------*/
+
+.menu {
+    width: 240px;
+    height: 100%;
+    position: absolute;
+    background: #FFCCCC;
+    left: -240px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    z-index: 3;
+
+    
+}
+.menu-icon {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    margin: 6px 6px 0 0;
+    border-radius: 5px;
+    
+}
+#menuToggle { display: none; }
+
+#menuToggle:checked ~ .menu { position: absolute; left: 0; }
+
+input.form-control {
+
+    width:20%;
+    float: right;
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+
+}
+
+.input {
+    padding: 10px;
+}
+
+.glyphicon-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+    margin: 10px;
+}
+
+.carousel {
+    padding-bottom: 20px: 
+    padding-top: 20px;
+    z-index: 1;
+
+
+}
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:1200px;
+    height:600px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: table-row;
+    padding-top: 10px;
+    margin:0px;
+    width: 100%;
+
+}
+
+img.centerImage1 {
+   
+}
+
+section#section1 {
+    max-width: 100%;
+}
+    
+
+
+
+.row1{
+   display: inline-grid;
+
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+
+}
+
+li {
+    margin-left: 0px;
+    color: white;
+}
+
+.navbar-default {
+    background-color: #000;
+    border-color: #000;
+    width: 100%
+    z-index: 3;
+  h
+
+
+}
+
+.navbar-default .navbar-text {
+    color: #fff;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.footer-container {
+    margin-top: 0;
+}
+
+.navbar {
+    width: 100%;
+    margin:0;
+}
+
+
+body {
+      position: relative;
+
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; }
+  #section2 {padding-top:50px;height:500px;color: #fff; }
+  #section3 {padding-top:50px;height:500px;color: #fff; }
+
+  a {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.dropdown-menu {
+    float:right;
+}
+
+button.button {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 200px;
+    font-weight: bold;
+    }
+
+#section2 {
+    padding-top: 5px;
+    height: 300px;
+    color: #fff;
+    padding-bottom: 20px;
+    border:10%;
+}
+
+#section3 {
+   
+    height: 500px;
+    color: #fff;
+    padding-bottom: 5px;
+
+    border:0px;
+}
+
+button.imgbutton {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 200px;
+    font-weight: bold;
+    }
+
+    .footer-distributed{
+    background-color: #000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 45px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+    font-size:15px;
+    font-weight: bold;
+    color:  #ffffff;
+    margin: 0  0 10px;
+    padding-bottom: 10px;
+}
+
+.footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+    background: black;
+    margin-top: -5px;
+
+}
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 0px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #000;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+  
+}
+
+.footer-distributed .footer-right a img{
+  margin: -10px;
+  margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+
+        line-height: 1.8;
+        
+    }
+
+
+.footer-distributed .footer-right a {
+    display: inline;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+
+}
+
+ 
+
